@@ -1,7 +1,8 @@
 {
   "expo": {
+    "owner": "roronoa3301",
     "name": "notes-app",
-    "slug": "notes-app",
+    "slug": "a-notes-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,10 +25,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.roronoa3301.anotesapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "818062db-460f-41c4-b055-5159c1ea095d"
+      }
     }
   }
 }
